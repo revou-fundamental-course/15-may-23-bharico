@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <span class="judul">Katik</span><span class="subjudul">Kalkulator Matematika
+        </span>
+    </header>
+    <main>
+        <div class="kartu"></div>
+            <div class="figure"></div>
+            <div class="persegi"></div>
+            <div class="rumus">
+                <p>RUMUS LUAS PERSEGI YAITU:</p>
+                <p>L = S X S</p>
+
+                <p>Dimana:</p>
+                <p>L = Luas</p> 
+                <p>S = Sisi</p>
+            </div>
+            <div>
+                <h3>Hitung Luas Persegi</h3>
+                <Input id="sisi-luas" name="sisi-luas" required="">
+
+                <p class="hasil-luas" id="rumus-luas">L = S x S</p>
+                <p class="hasil-luas" id="perhitungan-luas">L =</p>
+                <p class="hasil-luas"><span id="output-luas"></span></p>
+
+                <button name="hitung-luas" onclick="hitungLuas()">Hitung</button>
+                <button name="reset-luas">Reset</button>
+             </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

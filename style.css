@@ -1,0 +1,39 @@
+body{
+    background: rgb(202, 231, 143);
+}
+header {
+    background: #c7bed0;
+    text-align: center;
+    padding: 15px 15px;
+    margin: 0px;
+}
+
+.judul {
+    font-weight: bold;
+    color: #0097ff;
+}
+.subjudul {
+    font-size: small;
+    color: #000000;
+}
+.card {
+    background: white;
+}
+.persegi{
+    border: 2px solid rgb(117, 117, 195);
+}
+.figure{
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+.hasil-luas {
+    visibility: hidden;
+}
