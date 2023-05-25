@@ -40,7 +40,7 @@ body {
 }
 
 .rumus-persegi {
-  text-align: center; /* Untuk membuat teks berada di tengah */
+  text-align: center; 
   font-weight: bold;
   padding-right: 30px;
 }
@@ -79,7 +79,7 @@ header {
 
 .input-fullwidth {
   width: calc(100% - 60px);
-  box-sizing: border-box; /* Untuk menghitung lebar input termasuk padding dan border */
+  box-sizing: border-box; 
   padding: 10px;
   margin-bottom: 10px;
   margin-left: 30px;
@@ -87,7 +87,7 @@ header {
 
 .button-hitung {
   display: block;
-  margin: 0 auto; /* Untuk membuat tombol berada di tengah horisontal */
+  margin: 0 auto; 
   background-color: #d900fb;
   border-radius: 12px;
   font-size: 12px;
